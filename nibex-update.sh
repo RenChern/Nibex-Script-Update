@@ -17,6 +17,6 @@ mv nibexd nibex-cli /usr/local/bin
 
 systemctl start Nibex.service
 
- if [[ -z $(pidof cropcoind) ]]; then
+ if [[ -z $(pidof nibexd) ]]; then
  echo "Finished"
 
