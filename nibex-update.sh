@@ -18,4 +18,6 @@ mv nibexd nibex-cli /usr/local/bin
 systemctl start Nibex.service
 
  if [[ -z $(pidof nibexd) ]]; then
-exit1
+
+fi
+
