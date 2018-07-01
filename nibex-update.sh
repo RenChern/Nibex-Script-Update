@@ -15,13 +15,8 @@ wget -N https://github.com/CryptoNeverSleeps/nibex/releases/download/v2.1/nibex-
 tar xvzf nibex-linux-mn.tar.gz --strip 1
 mv nibexd nibex-cli /usr/local/bin
 
-systemctl start Nibex.service >/dev/null 2>&1
+systemctl start Nibex.service
 
-
-echo "Running nibex-cli getinfo"
-
-nibex-cli getinfo
-
-Echo "Finished"
-
+ if [[ -z $(pidof cropcoind) ]]; then
+ echo "Finished"
 
