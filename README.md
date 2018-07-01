@@ -15,7 +15,7 @@ Shell script to update a [Nibex Masternode](https://www.nibex.net/) on a Linux s
 
 ## VPS UPDATE
 ```
-wget -q https://github.com/CryptoNeverSleeps/Nibex-Script/raw/master/nibex-install.sh
+wget -q https://github.com/CryptoNeverSleeps/Nibex-Script-Update/raw/master/nibex-update.sh
 chmod +x nibex-update.sh
 ./nibex-update.sh
 ```
