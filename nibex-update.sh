@@ -15,7 +15,8 @@ wget -N https://github.com/CryptoNeverSleeps/nibex/releases/download/v2.1/nibex-
 tar xvzf nibex-linux-mn.tar.gz --strip 1
 mv nibexd nibex-cli /usr/local/bin
 
-systemctl start Nibex.service
+systemctl start Nibex.service >/dev/null 2>&1
+
 
 echo "Running nibex-cli getinfo"
 
