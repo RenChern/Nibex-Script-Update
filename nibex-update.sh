@@ -16,8 +16,3 @@ tar xvzf nibex-linux-mn.tar.gz --strip 1
 mv nibexd nibex-cli /usr/local/bin
 
 systemctl start Nibex.service
-
- if [[ -z $(pidof nibexd) ]]; then
-
-fi
-
