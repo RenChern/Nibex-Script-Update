@@ -1,6 +1,6 @@
 ![](https://cdn.discordapp.com/attachments/460803845614862337/462105794498789376/Nibex.png)
 
-# Nibex v2.1 Masternode Update Guide [ Ubuntu 16.04 ]
+# Nibex v2.2 Masternode Update Guide [ Ubuntu 16.04 ]
 
 THIS GUIDE IS FOR ROOT USERS THAT INSTALLED USING NIBEX v2.0-
 
@@ -33,7 +33,7 @@ watch nibex-cli getinfo
 ```
 Make sure the version number matches.
 ```
-"version" : 2010000,     ------------------This is the latest version (Nibex v2.1)
+"version" : 2010000,     ------------------This is the latest version (Nibex v2.2)
 ```
 
 Once the block height matches the block explorer issue the following command.
