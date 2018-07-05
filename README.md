@@ -33,7 +33,7 @@ watch nibex-cli getinfo
 ```
 Make sure the version number matches.
 ```
-"version" : 2010000,     ------------------This is the latest version (Nibex v2.2)
+"version" : 2020000,     ------------------This is the latest version (Nibex v2.2)
 ```
 
 Once the block height matches the block explorer issue the following command.
