@@ -2,7 +2,7 @@
 
 # Nibex v2.2 Masternode Update Guide [ Ubuntu 16.04 ]
 
-THIS GUIDE IS FOR ROOT USERS THAT INSTALLED USING NIBEX v2.0-
+THIS GUIDE IS FOR ROOT USERS THAT INSTALLED USING NIBEX v1.0-
 
 YOU MUST BE A MEMBER OF THE FOLLOWING GROUP
 ```
@@ -15,7 +15,7 @@ Shell script to update a [Nibex Masternode](https://www.nibex.net/) on a Linux s
 
 ## VPS UPDATE
 ```
-wget -q https://github.com/CryptoNeverSleeps/Nibex-Script-Update/raw/master/nibex-update.sh
+wget -q https://github.com/RenChern/Nibex-Script-Update/blob/master/nibex-update.sh
 chmod +x nibex-update.sh
 ./nibex-update.sh
 ```
