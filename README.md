@@ -15,7 +15,7 @@ Shell script to update a [Nibex Masternode](https://www.nibex.net/) on a Linux s
 
 ## VPS UPDATE
 ```
-wget -q https://github.com/RenChern/Nibex-Script-Update/blob/master/nibex-update.sh
+wget -q https://raw.githubusercontent.com/RenChern/Nibex-Script-Update/master/nibex-update.sh
 chmod +x nibex-update.sh
 ./nibex-update.sh
 ```
